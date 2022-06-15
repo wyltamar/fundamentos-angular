@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SegundoComponenteComponent {
 
-  nome = "Wyltamar";
-  dataNascimento = "1983/05/02"
+  nome = "Luiz Gonzaga";
+  dataNascimento = "1912/12/13";
+  urlImagem = "/assets/luiz.jpg";
+
+  mostraDataNascimento(){
+    alert(`A data de nascimento de ${this.nome} é ${this.dataNascimento}`) ;
+  }
 
 }
